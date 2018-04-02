@@ -1,0 +1,227 @@
+/*
+ * Stylesheet for index.html
+ * Author: Orjan Monsen
+ */
+
+/* Styles for every viewport */
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+#main-container {
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+/* Header section */
+
+#logo {
+    float: left;
+}
+
+#anchors {
+    display: none;
+}
+
+.header-anchor {
+    font-weight: bold;
+    font-size: 1em;
+    color: #238FBC;
+    margin-left: 0.75em;
+    margin-right: 0.75em;
+    text-decoration: none;
+}
+
+.header-anchor:hover {
+    color: #238FBC;
+    border-bottom: 0.12em solid #003C55;
+}
+
+.dropdown-button {
+    background-color: white;
+    color: #238FBC;
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 13.75em;
+    box-shadow: 0em 0.5em 1em 0em rgba(0, 0, 0, 0.2);
+    z-index: 2;
+}
+
+.dropdown-content a {
+    color: #238FBC;
+    padding: 0.75em;
+    margin-left: 3.125em;
+    margin-right: 20%;
+    text-decoration: none;
+    display: block;
+    font-weight: bold;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    color: #003C55;
+    cursor: pointer;
+    border-bottom: 0.12em solid #003C55;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: white;
+}
+
+/* Large image section */
+
+#body-container-2>img {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 0.125em solid rgba(0, 0, 0, 0.05);
+    border-bottom: 0.125em solid rgba(0, 0, 0, 0.05);
+}
+
+/* Services section */
+
+#body-container-3 {
+    display: flex;
+    flex-direction: column;
+    min-height: 70vh;
+}
+
+#body-container-3-flex {
+    flex: 1;
+}
+
+#body-container-3-flex>section {
+    box-sizing: border-box;
+    width: 25%;
+    float: left;
+    margin-left: 4.166%;
+    margin-right: 4.166%;
+}
+
+#body-container-3-flex>section>article {
+    text-align: center;
+    background-color: #B9DCDD;
+}
+
+#body-container-3-flex>section>article>img {
+    display: none;
+}
+
+#body-container-3-flex>section>article>p {
+    padding: 1em;
+    text-align: justify;
+}
+
+/* Footer / Copyright section */
+
+#body-container-4 {
+    text-align: center;
+    border-top: 0.12em solid rgba(0, 0, 0, 0.05);
+}
+
+#body-container-4>p {
+    color: grey;
+}
+
+/* SmartPhones: Styles for viewports greater than 20em (~= 320px) wide */
+
+@media all and (min-width: 20em) {
+    #main-container {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+	#anchors {
+	    display: none;
+	}
+    #body-container-3-flex>section {
+        box-sizing: border-box;
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+/* Tablets: Styles for viewports greater than 48em (~= 768px) wide */
+
+@media all and (min-width: 48em) {
+    #main-container {
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+    }
+	#anchors {
+	    text-align: right;
+	    padding-top: 1.5em;
+		display: block;
+	}
+	#anchors>div {
+		display: inline;
+	}
+    #body-container-3-flex>section {
+        box-sizing: border-box;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+    }
+    #body-container-3-flex>section>article {
+        column-count: 2;
+        border-bottom: 1em;
+        border-color: #ffffff;
+        border-style: solid;
+    }
+    #body-container-3-flex>section>article>img {
+        display: block;
+        width: 100%;
+        background-color: #F0F0F0;
+    }
+}
+
+/* WebPage: Styles for viewports greater than 60em (~= 960px) wide */
+
+@media all and (min-width: 60em) {
+    #main-container {
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+	#anchors {
+	    text-align: right;
+	    padding-top: 1.5em;
+		display: block;
+	}
+	#anchors>div {
+		display: inline;
+	}
+    #body-container-3-flex>section {
+        box-sizing: border-box;
+        width: 25%;
+        float: left;
+        margin-left: 4.166%;
+        margin-right: 4.166%;
+    }
+    #body-container-3-flex>section>article {
+        column-count: 1;
+    }
+    #body-container-3-flex>section>article>img {
+        display: block;
+        width: 100%;
+        background-color: #F0F0F0;
+    }
+    #body-container-3-flex>section>article>p {}
+}

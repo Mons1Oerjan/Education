@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Assignment 3</title>
+        <meta name="description" content="Assignment 3">
+        <meta name="author" content="Orjan Monsen">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    </head>
+    <body>
+        <div id="main-container">
+            <form action="#" id="form1">
+                <fieldset>
+                    <legend>Account</legend>
+                    First name: <input type="text" name="firstname" required pattern="^[A-Za-z]+$" title="Only letters are allowed."/><br />
+                    Last name: <input type="text" name="lastname" required pattern="^[A-Za-z]+$" title="Only letters are allowed."/><br />
+                    Email: <input type="email" name="email" required/><br />
+                    Password: <input type="password" id="password_field" name="password" onchange='confirmPassword();' required pattern=".{8,}" title="Minimum 8 characters."/><br />
+                    Confirmation Password: <input type="password" id="password_confirmation_field" name="confirmation_password" onchange='confirmPassword();' required title="Must match the password field."/><br />
+                </fieldset>
+                <fieldset>
+                    <legend>Account Info</legend>
+                    Street Address: <input type="text" name="address" pattern="^[A-Za-z0-9]{0}$|^[A-Za-z0-9]+$" title="Only accepts letters and numbers."/><br />
+                    Postal Code: <input type="text" name="postalcode" pattern="^[A-Za-z0-9]{0}$|^[A-Za-z0-9]+$" title="Only accepts letters and numbers."/><br />
+                    City: <input type="text" name="city" pattern="^[A-Za-z]{0}$|^[A-Za-z]+$" title="Only letters are allowed."/><br />
+                    Country: <input type="text" name="country" pattern="^[A-Za-z]{0}$|^[A-Za-z]+$" title="Only letters are allowed."/><br />
+                </fieldset>
+                <input type="submit" id="submit" value="Submit" disabled>
+            </form>
+            <div id="body-container-4">
+                <p>&#169; 2017 All Rights Reserved</p>
+            </div>
+            <script>
+                /**
+                 * Function that validates that the password is equal to
+                 * the password confirmation field. If they are not equal,
+                 * then the submit button is disabled.
+                 */
+                function confirmPassword() {
+                    var passwordConfirmationField = document.getElementById('password_confirmation_field');
+                    var passwordField = document.getElementById('password_field');
+                    var submitButton = document.getElementById('submit');
+
+                    console.log(passwordField.value);
+                    console.log(passwordConfirmationField.value);
+                    if (passwordField.value !== passwordConfirmationField.value) {
+                        submitButton.disabled = true;
+                    } else {
+                        submitButton.disabled = false;
+                    }
+                }
+            </script>
+            <noscript>Sorry, your browser does not support Javascript.</noscript>
+        </div>
+    </body>
+</html>
