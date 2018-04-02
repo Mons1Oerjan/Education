@@ -1,0 +1,115 @@
+Sleeping TA Problem - Demonstration:
+10 students are programming today.
+
+	Student 1 is programming for 2 seconds
+	Student 3 is programming for 1 seconds
+	Student 2 is programming for 3 seconds
+	Student 4 is programming for 3 seconds
+	Student 5 is programming for 2 seconds
+	Student 6 is programming for 2 seconds
+	Student 7 is programming for 3 seconds
+	Student 8 is programming for 3 seconds
+	Student 9 is programming for 3 seconds
+	Student 10 is programming for 1 seconds
+		Student 10 takes a seat waiting = 1
+		Student 3 takes a seat waiting = 2
+Helping a student for 3 seconds, waiting students = 1
+Student 10 receiving help
+		Student 1 takes a seat waiting = 2
+		Student 5 takes a seat waiting = 3
+			Student 6 will try later
+	Student 6 is programming for 1 seconds
+			Student 2 will try later
+	Student 2 is programming for 3 seconds
+			Student 4 will try later
+	Student 4 is programming for 2 seconds
+			Student 7 will try later
+			Student 8 will try later
+			Student 9 will try later
+	Student 7 is programming for 3 seconds
+Helping a student for 1 seconds, waiting students = 2
+	Student 8 is programming for 3 seconds
+	Student 9 is programming for 2 seconds
+Student 1 receiving help
+		Student 3 takes a seat waiting = 3
+			Student 6 will try later
+	Student 6 is programming for 2 seconds
+			Student 10 will try later
+	Student 10 is programming for 1 seconds
+Helping a student for 1 seconds, waiting students = 2
+Student 3 receiving help
+		Student 9 takes a seat waiting = 3
+			Student 4 will try later
+	Student 4 is programming for 2 seconds
+			Student 10 will try later
+	Student 10 is programming for 2 seconds
+Helping a student for 1 seconds, waiting students = 2
+Student 9 receiving help
+		Student 2 takes a seat waiting = 3
+			Student 8 will try later
+	Student 8 is programming for 1 seconds
+			Student 7 will try later
+	Student 7 is programming for 2 seconds
+			Student 6 will try later
+	Student 6 is programming for 1 seconds
+			Student 1 will try later
+	Student 1 is programming for 1 seconds
+			Student 5 will try later
+	Student 5 is programming for 3 seconds
+			Student 3 will try later
+	Student 3 is programming for 1 seconds
+Helping a student for 3 seconds, waiting students = 2
+Student 2 receiving help
+		Student 4 takes a seat waiting = 3
+			Student 10 will try later
+	Student 10 is programming for 2 seconds
+			Student 8 will try later
+	Student 8 is programming for 3 seconds
+			Student 6 will try later
+	Student 6 is programming for 2 seconds
+			Student 1 will try later
+	Student 1 is programming for 1 seconds
+			Student 3 will try later
+	Student 3 is programming for 3 seconds
+			Student 9 will try later
+	Student 9 is programming for 2 seconds
+			Student 7 will try later
+	Student 7 is programming for 3 seconds
+			Student 5 will try later
+	Student 5 is programming for 2 seconds
+Helping a student for 1 seconds, waiting students = 2
+Student 4 receiving help
+		Student 1 takes a seat waiting = 3
+Helping a student for 1 seconds, waiting students = 2
+Student 1 receiving help
+		Student 6 takes a seat waiting = 3
+			Student 9 will try later
+	Student 9 is programming for 3 seconds
+			Student 10 will try later
+	Student 10 is programming for 1 seconds
+			Student 5 will try later
+	Student 5 is programming for 2 seconds
+Helping a student for 3 seconds, waiting students = 2
+Student 6 receiving help
+		Student 2 takes a seat waiting = 3
+			Student 8 will try later
+	Student 8 is programming for 3 seconds
+			Student 3 will try later
+	Student 3 is programming for 1 seconds
+			Student 7 will try later
+	Student 7 is programming for 3 seconds
+			Student 4 will try later
+	Student 4 is programming for 3 seconds
+			Student 1 will try later
+	Student 1 is programming for 3 seconds
+			Student 10 will try later
+	Student 10 is programming for 2 seconds
+			Student 5 will try later
+	Student 5 is programming for 2 seconds
+			Student 9 will try later
+	Student 9 is programming for 2 seconds
+Helping a student for 1 seconds, waiting students = 2
+Student 2 receiving help
+		Student 3 takes a seat waiting = 3
+Helping a student for 2 seconds, waiting students = 2
+Student 3 receiving h
