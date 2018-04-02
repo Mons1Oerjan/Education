@@ -1,0 +1,132 @@
+ ~/dev/ml/ML-assignment1  python sol1.py
+1.1)
+loadtxt: loads data from a text file where each row in the text file must have the same number of values.
+genfromtxt: loads data from a text file where missing values are handled as specified.
+
+1.2)
+size of Fisher's measurements: 600
+Number of elements in the second dimension of the iris_data array: 150
+
+1.3)
+Sum column 0: 876.5
+Sum column 1: 458.1
+Sum column 2: 563.8
+Sum of all columns: 2078.2
+Sum of 2nd and 4th columns: 637.9
+Max value of column 0: 5.5
+Max value of column 1: 4.2
+Max value of column 2: 1.9
+Min value of column 0: 4.4
+
+1.4)
+Sum of r13rd: 1440.3
+r13rd cubed: [ 132.651  117.649  103.823   97.336  125.     157.464   97.336  125.
+   85.184  117.649  157.464  110.592  110.592   79.507  195.112  185.193
+  157.464  132.651  185.193  132.651  157.464  132.651   97.336  132.651
+  110.592  125.     125.     140.608  140.608  103.823  110.592  157.464
+  140.608  166.375  117.649  125.     166.375  117.649   85.184  132.651
+  125.      91.125   85.184  125.     132.651  110.592  132.651   97.336
+  148.877  125.     343.     262.144  328.509  166.375  274.625  185.193
+  250.047  117.649  287.496  140.608  125.     205.379  216.     226.981
+  175.616  300.763  175.616  195.112  238.328  175.616  205.379  226.981
+  250.047  226.981  262.144  287.496  314.432  300.763  216.     185.193
+  166.375  166.375  195.112  216.     157.464  216.     300.763  250.047
+  175.616  166.375  166.375  226.981  195.112  125.     175.616  185.193
+  185.193  238.328  132.651  185.193  250.047  195.112  357.911  250.047
+  274.625  438.976  117.649  389.017  300.763  373.248  274.625  262.144
+  314.432  185.193  195.112  262.144  274.625  456.533  456.533  216.
+  328.509  175.616  456.533  250.047  300.763  373.248  238.328  226.981
+  262.144  373.248  405.224  493.039  262.144  250.047  226.981  456.533
+  250.047  262.144  216.     328.509  300.763  328.509  195.112  314.432
+  300.763  300.763  250.047  274.625  238.328  205.379    2.744    2.744
+    2.197    3.375    2.744    4.913    2.744    3.375    2.744    3.375
+    3.375    4.096    2.744    1.331    1.728    3.375    2.197    2.744
+    4.913    3.375    4.913    3.375    1.       4.913    6.859    4.096
+    4.096    3.375    2.744    4.096    4.096    3.375    3.375    2.744
+    3.375    1.728    2.197    3.375    2.197    3.375    2.197    2.197
+    2.197    4.096    6.859    2.744    4.096    2.744    3.375    2.744
+  103.823   91.125  117.649   64.      97.336   91.125  103.823   35.937
+   97.336   59.319   42.875   74.088   64.     103.823   46.656   85.184
+   91.125   68.921   91.125   59.319  110.592   64.     117.649  103.823
+   79.507   85.184  110.592  125.      91.125   42.875   54.872   50.653
+   59.319  132.651   91.125   91.125  103.823   85.184   68.921   64.
+   85.184   97.336   64.      35.937   74.088   74.088   74.088   79.507
+   27.      68.921  216.     132.651  205.379  175.616  195.112  287.496
+   91.125  250.047  195.112  226.981  132.651  148.877  166.375  125.
+  132.651  148.877  166.375  300.763  328.509  125.     185.193  117.649
+  300.763  117.649  185.193  216.     110.592  117.649  175.616  195.112
+  226.981  262.144  175.616  132.651  175.616  226.981  175.616  166.375
+  110.592  157.464  175.616  132.651  132.651  205.379  185.193  140.608
+  125.     140.608  157.464  132.651]
+
+1.5)
+Adding mat1 and mat2: [ 6.5  6.3  6.   6.1  3.7  3.2  3.4  3.3]
+Multiplying mat1 and mat2: 29.57
+
+1.6)
+mat3 has been saved to mat3.csv
+
+1.7)
+Creating a bar chart...
+/System/Library/Frameworks/Python.framework/Versions/2.7/Extras/lib/python/matplotlib/tight_layout.py:225: UserWarning: tight_layout : falling back to Agg renderer
+  warnings.warn("tight_layout : falling back to Agg renderer")
+
+1.8)
+Creating a scatter plot...
+
+1.9)
+Creating a scatter plot...
+
+1.10)
+seed(a, version):
+initializes the random number generator. Uses current system time if a is not provided.
+
+RandomState:
+container that exposes a number of functions for generating random numbers drawn from a large
+number of different probability distributions.
+
+rand(d0, d1, ..., dn):
+function that returns an array (or matrix) of the given shape (defined in the input params)
+populated with random samples from a uniform distribution over (0, 1).
+
+randn(d0, d1, ..., dn):
+function that returns an array (or matrix) of the given shape (defined in the input params)
+populated with random samples from the "standard normal" distribution.
+
+randint(a, b):
+function that returns a random integer n such that a <= n <= b.
+
+RandomState before the random generator function:
+Sometimes it's beneficial to create a new instance for the random number generator and not use
+the global numpy random function. RandomState also has the advantage of having more
+probability distributions to choose from, so if you need to choose a specific distribution, then
+it is good practice to create a new RandomState instance.
+
+cent: 5x5 matrix using random values drawn from the normal distribution:
+[[ -3.98278445e-01  -1.33683625e+00  -1.41182593e-01  -5.31287747e-01
+    9.02726640e-01]
+ [  1.45712686e+00   4.46579775e-01   2.63367082e-01  -1.42966777e+00
+   -1.50739018e-02]
+ [  1.98271206e-01   3.76829420e-01  -7.91197863e-01   7.58632660e-01
+    1.33026946e-03]
+ [  5.19950911e-01  -1.45097323e+00  -9.02607674e-01   6.82499692e-01
+    6.84611772e-02]
+ [  2.98741694e-01   1.62439752e-01  -3.13315231e-01  -1.16185228e+00
+    1.82406013e-02]]
+
+Negative numbers explanation:
+cent contains negative numbers because the normal distribution extends from -infinity to infinity.
+
+1.11)
+1x5 row vector v: [[ 0.96698257  0.03445871  0.29416014  0.16303926  0.21291741]]
+new v after concatenation: [[ 0.96698257  0.03445871  0.29416014  0.16303926  0.21291741]]
+ ~/dev/ml/ML-assignment1  python sol2.py
+2.1)
+Rank 500 matrix multiplication time using for loops: 197.674819946 seconds.
+
+2.2)
+Rank 500 matrix multiplication time using numpy.dot: 0.00807595252991 seconds.
+
+2.3)
+for loops vs dot product computational difference: 197.666743994 seconds
+ ~/dev/ml/ML-assignment1  
