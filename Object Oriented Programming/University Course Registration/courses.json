@@ -1,0 +1,1028 @@
+[
+    {
+        "crn": "14727",
+        "location": "Carleton COLLABORATIVE HEALTH EDUC BLDG C170",
+        "type": "Lec",
+        "name": "CSCI 1100 Computer Science I-Lec",
+        "weekdays": "MTWF",
+        "time": "1035-1125",
+        "percent": "99.4%"
+    },
+    {
+        "crn": "14728",
+        "location": "Studley MCCAIN ARTS&SS AUD-1",
+        "type": "Lec",
+        "name": "CSCI 1100 Computer Science I-Lec",
+        "weekdays": "R",
+        "time": "1635-1925",
+        "percent": "98.8%"
+    },
+    {
+        "crn": "14729",
+        "location": "Studley COMPUTER SCIENCE 133",
+        "type": "Lab",
+        "name": "CSCI 1100 Computer Science I-Lab",
+        "weekdays": "T",
+        "time": "0835-1025",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "14730",
+        "location": "Studley COMPUTER SCIENCE 228",
+        "type": "Lab",
+        "name": "CSCI 1100 Computer Science I-Lab",
+        "weekdays": "T",
+        "time": "0835-1025",
+        "percent": "95.0%"
+    },
+    {
+        "crn": "14731",
+        "location": "Studley COMPUTER SCIENCE 133",
+        "type": "Lab",
+        "name": "CSCI 1100 Computer Science I-Lab",
+        "weekdays": "T",
+        "time": "1035-1225",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "14732",
+        "location": "Studley COMPUTER SCIENCE 228",
+        "type": "Lab",
+        "name": "CSCI 1100 Computer Science I-Lab",
+        "weekdays": "T",
+        "time": "1035-1225",
+        "percent": "95.0%"
+    },
+    {
+        "crn": "14733",
+        "location": "Studley COMPUTER SCIENCE 133",
+        "type": "Lab",
+        "name": "CSCI 1100 Computer Science I-Lab",
+        "weekdays": "T",
+        "time": "1235-1425",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "14734",
+        "location": "Studley COMPUTER SCIENCE 228",
+        "type": "Lab",
+        "name": "CSCI 1100 Computer Science I-Lab",
+        "weekdays": "T",
+        "time": "1235-1425",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "18167",
+        "location": "Studley COMPUTER SCIENCE 133",
+        "type": "Lab",
+        "name": "CSCI 1100 Computer Science I-Lab",
+        "weekdays": "T",
+        "time": "1435-1625",
+        "percent": "90.0%"
+    },
+    {
+        "crn": "18168",
+        "location": "Studley COMPUTER SCIENCE 228",
+        "type": "Lab",
+        "name": "CSCI 1100 Computer Science I-Lab",
+        "weekdays": "T",
+        "time": "1435-1625",
+        "percent": "95.0%"
+    },
+    {
+        "crn": "18169",
+        "location": "Studley COMPUTER SCIENCE 143",
+        "type": "Lab",
+        "name": "CSCI 1100 Computer Science I-Lab",
+        "weekdays": "T",
+        "time": "1135-1325",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "18170",
+        "location": "Studley COMPUTER SCIENCE 330",
+        "type": "Lab",
+        "name": "CSCI 1100 Computer Science I-Lab",
+        "weekdays": "T",
+        "time": "1135-1325",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "18171",
+        "location": "Studley COMPUTER SCIENCE 142",
+        "type": "Lab",
+        "name": "CSCI 1100 Computer Science I-Lab",
+        "weekdays": "T",
+        "time": "1135-1325",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "18172",
+        "location": "Studley COMPUTER SCIENCE 143",
+        "type": "Lab",
+        "name": "CSCI 1100 Computer Science I-Lab",
+        "weekdays": "T",
+        "time": "1335-1525",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "18173",
+        "location": "Studley COMPUTER SCIENCE 330",
+        "type": "Lab",
+        "name": "CSCI 1100 Computer Science I-Lab",
+        "weekdays": "T",
+        "time": "1335-1525",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "18174",
+        "location": "Studley COMPUTER SCIENCE 142",
+        "type": "Lab",
+        "name": "CSCI 1100 Computer Science I-Lab",
+        "weekdays": "T",
+        "time": "1335-1525",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "18426",
+        "location": "Studley COMPUTER SCIENCE 134",
+        "type": "Lab",
+        "name": "CSCI 1100 Computer Science I-Lab",
+        "weekdays": "T",
+        "time": "1235-1425",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "14735",
+        "location": "Studley SIR JAMES DUNN 117",
+        "type": "Tut",
+        "name": "CSCI 1100 Computer Science I-Tut",
+        "weekdays": "MT",
+        "time": "1835-1955",
+        "percent": "99.1%"
+    },
+    {
+        "crn": "14736",
+        "location": "Studley KILLAM LIBRARY 2600",
+        "type": "Lec",
+        "name": "CSCI 1107 Social Computing-Lec",
+        "weekdays": "T",
+        "time": "0835-1125",
+        "percent": "FULL"
+    },
+    {
+        "crn": "14737",
+        "location": "Studley KILLAM LIBRARY 2600",
+        "type": "Lab",
+        "name": "CSCI 1107 Social Computing-Lab",
+        "weekdays": "R",
+        "time": "0835-1125",
+        "percent": "FULL"
+    },
+    {
+        "crn": "14738",
+        "location": "Studley SIR JAMES DUNN 101",
+        "type": "Tut",
+        "name": "CSCI 1107 Social Computing-Tut",
+        "weekdays": "W",
+        "time": "1335-1425",
+        "percent": "FULL"
+    },
+    {
+        "crn": "14739",
+        "location": "Studley LSC-PSYCHOLOGY P5260",
+        "type": "Lec",
+        "name": "CSCI 1108 Experimental Robotics-Lec",
+        "weekdays": "MTW",
+        "time": "0935-1025",
+        "percent": "92.0%"
+    },
+    {
+        "crn": "14740",
+        "location": "Studley COMPUTER SCIENCE 134",
+        "type": "Lab",
+        "name": "CSCI 1108 Experimental Robotics-Lab",
+        "weekdays": "MTW",
+        "time": "1135-1325",
+        "percent": "86.7%"
+    },
+    {
+        "crn": "14741",
+        "location": "Studley COMPUTER SCIENCE 228",
+        "type": "Lab",
+        "name": "CSCI 1108 Experimental Robotics-Lab",
+        "weekdays": "MTW",
+        "time": "1135-1325",
+        "percent": "90.0%"
+    },
+    {
+        "crn": "14742",
+        "location": "Studley COMPUTER SCIENCE 134",
+        "type": "Lab",
+        "name": "CSCI 1108 Experimental Robotics-Lab",
+        "weekdays": "MTW",
+        "time": "1635-1825",
+        "percent": "93.3%"
+    },
+    {
+        "crn": "18224",
+        "location": "Studley COMPUTER SCIENCE 228",
+        "type": "Lab",
+        "name": "CSCI 1108 Experimental Robotics-Lab",
+        "weekdays": "MTW",
+        "time": "1635-1825",
+        "percent": "FULL"
+    },
+    {
+        "crn": "14743",
+        "location": "Studley SIR JAMES DUNN 304",
+        "type": "Lec",
+        "name": "CSCI 1110 Computer Science I and II-Lec",
+        "weekdays": "MTWF",
+        "time": "1035-1125",
+        "percent": "52.0%"
+    },
+    {
+        "crn": "14744",
+        "location": "Studley KENNETH C ROWE MANAG 1014",
+        "type": "Lab",
+        "name": "CSCI 1110 Computer Science I and II-Lab",
+        "weekdays": "F",
+        "time": "1135-1425",
+        "percent": "52.0%"
+    },
+    {
+        "crn": "14745",
+        "location": "Studley LSC-COMMON AREA C240",
+        "type": "Lec",
+        "name": "CSCI 1200 Intro to Comput for Non-Majors-Lec",
+        "weekdays": "WF",
+        "time": "0835-0955",
+        "percent": "28.6%"
+    },
+    {
+        "crn": "14746",
+        "location": "Studley COMPUTER SCIENCE 133",
+        "type": "Lab",
+        "name": "CSCI 1200 Intro to Comput for Non-Majors-Lab",
+        "weekdays": "MT",
+        "time": "1005-1125",
+        "percent": "60.0%"
+    },
+    {
+        "crn": "14747",
+        "location": "Studley COMPUTER SCIENCE 134",
+        "type": "Lab",
+        "name": "CSCI 1200 Intro to Comput for Non-Majors-Lab",
+        "weekdays": "MT",
+        "time": "1005-1125",
+        "percent": "8.0%"
+    },
+    {
+        "crn": "14748",
+        "location": "Studley COMPUTER SCIENCE 133",
+        "type": "Lab",
+        "name": "CSCI 1200 Intro to Comput for Non-Majors-Lab",
+        "weekdays": "MT",
+        "time": "1005-1125",
+        "percent": "0.0%"
+    },
+    {
+        "crn": "14749",
+        "location": "Studley CHEMISTRY 125",
+        "type": "Lec",
+        "name": "CSCI 2100 Comm Skills: Oral/Written-Lec",
+        "weekdays": "TR",
+        "time": "1135-1255",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "14750",
+        "location": "Studley SIR JAMES DUNN 117",
+        "type": "Lec",
+        "name": "CSCI 2110 Computer Science III-Lec",
+        "weekdays": "TRF",
+        "time": "1635-1725",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "14751",
+        "location": "Carleton COLLABORATIVE HEALTH EDUC BLDG C170",
+        "type": "Lab",
+        "name": "CSCI 2110 Computer Science III-Lab",
+        "weekdays": "R",
+        "time": "0835-1125",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "14752",
+        "location": "Studley KILLAM LIBRARY MACME",
+        "type": "Lec",
+        "name": "CSCI 2112 Discrete Structures I-Lec",
+        "weekdays": "MTWF",
+        "time": "1135-1225",
+        "percent": "94.7%"
+    },
+    {
+        "crn": "14753",
+        "location": "Studley COMPUTER SCIENCE 127",
+        "type": "Lec",
+        "name": "CSCI 2121 Intro-Comp Org/Assemby Lang-Lec",
+        "weekdays": "TR",
+        "time": "1305-1425",
+        "percent": "98.2%"
+    },
+    {
+        "crn": "14754",
+        "location": "Studley COMPUTER SCIENCE 330",
+        "type": "Lab",
+        "name": "CSCI 2121 Intro-Comp Org/Assemby Lang-Lab",
+        "weekdays": "T",
+        "time": "1005-1125",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "14755",
+        "location": "Studley COMPUTER SCIENCE 143",
+        "type": "Lab",
+        "name": "CSCI 2121 Intro-Comp Org/Assemby Lang-Lab",
+        "weekdays": "T",
+        "time": "1005-1125",
+        "percent": "97.1%"
+    },
+    {
+        "crn": "14756",
+        "location": "Studley COMPUTER SCIENCE 134",
+        "type": "Lab",
+        "name": "CSCI 2121 Intro-Comp Org/Assemby Lang-Lab",
+        "weekdays": "T",
+        "time": "1005-1125",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "18259",
+        "location": "Studley COMPUTER SCIENCE 134",
+        "type": "Lab",
+        "name": "CSCI 2121 Intro-Comp Org/Assemby Lang-Lab",
+        "weekdays": "W",
+        "time": "0835-0955",
+        "percent": "96.7%"
+    },
+    {
+        "crn": "14757",
+        "location": "Studley COMPUTER SCIENCE 127",
+        "type": "Lec",
+        "name": "CSCI 2132 Software Development-Lec",
+        "weekdays": "MTWF",
+        "time": "1435-1525",
+        "percent": "98.2%"
+    },
+    {
+        "crn": "14758",
+        "location": "Studley COMPUTER SCIENCE 143",
+        "type": "Lab",
+        "name": "CSCI 2132 Software Development-Lab",
+        "weekdays": "W",
+        "time": "1605-1725",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "14759",
+        "location": "Studley COMPUTER SCIENCE 133",
+        "type": "Lab",
+        "name": "CSCI 2132 Software Development-Lab",
+        "weekdays": "W",
+        "time": "1605-1725",
+        "percent": "95.0%"
+    },
+    {
+        "crn": "14760",
+        "location": "Studley COMPUTER SCIENCE 127",
+        "type": "Lab",
+        "name": "CSCI 2132 Software Development-Lab",
+        "weekdays": "W",
+        "time": "1605-1725",
+        "percent": "98.2%"
+    },
+    {
+        "crn": "14761",
+        "location": "Studley LSC-PSYCHOLOGY P5260",
+        "type": "Lec",
+        "name": "CSCI 2141 Intro to Database Systems-Lec",
+        "weekdays": "TR",
+        "time": "1435-1555",
+        "percent": "98.3%"
+    },
+    {
+        "crn": "18227",
+        "location": "Studley COMPUTER SCIENCE 143",
+        "type": "Lab",
+        "name": "CSCI 2141 Intro to Database Systems-Lab",
+        "weekdays": "MT",
+        "time": "1535-1655",
+        "percent": "97.1%"
+    },
+    {
+        "crn": "18228",
+        "location": "Studley COMPUTER SCIENCE 133",
+        "type": "Lab",
+        "name": "CSCI 2141 Intro to Database Systems-Lab",
+        "weekdays": "MT",
+        "time": "1535-1655",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "18229",
+        "location": "Studley COMPUTER SCIENCE 143",
+        "type": "Lab",
+        "name": "CSCI 2141 Intro to Database Systems-Lab",
+        "weekdays": "T",
+        "time": "0835-0955",
+        "percent": "94.3%"
+    },
+    {
+        "crn": "18230",
+        "location": "Studley COMPUTER SCIENCE 134",
+        "type": "Lab",
+        "name": "CSCI 2141 Intro to Database Systems-Lab",
+        "weekdays": "T",
+        "time": "0835-0955",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "14762",
+        "location": "Studley SIR JAMES DUNN 117",
+        "type": "Lec",
+        "name": "CSCI 3101 Soc/Ethi/Prof Issues in Csci-Lec",
+        "weekdays": "TR",
+        "time": "1435-1555",
+        "percent": "96.5%"
+    },
+    {
+        "crn": "14763",
+        "location": "Studley LSC-COMMON AREA C236",
+        "type": "Lec",
+        "name": "CSCI 3110 Dsgn. & Anal. of Algorithms I.-Lec",
+        "weekdays": "TR",
+        "time": "1005-1125",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "14764",
+        "location": "Studley KENNETH C ROWE MANAG 1028",
+        "type": "Tut",
+        "name": "CSCI 3110 Dsgn. & Anal. of Algorithms I.-Tut",
+        "weekdays": "MT",
+        "time": "1235-1325",
+        "percent": "WLIST"
+    },
+    {
+        "crn": "14765",
+        "location": "Studley MCCAIN ARTS&SS 2102",
+        "type": "Lec",
+        "name": "CSCI 3121 Comp. Systems Architecture-Lec",
+        "weekdays": "TR",
+        "time": "0835-0955",
+        "percent": "55.6%"
+    },
+    {
+        "crn": "14766",
+        "location": "Studley LSC-COMMON AREA C240",
+        "type": "Lec",
+        "name": "CSCI 3132 Obj. Orient/Generic Prog-Lec",
+        "weekdays": "MTWF",
+        "time": "1435-1525",
+        "percent": "52.3%"
+    },
+    {
+        "crn": "14767",
+        "location": "Studley COMPUTER SCIENCE 143",
+        "type": "Lab",
+        "name": "CSCI 3132 Obj. Orient/Generic Prog-Lab",
+        "weekdays": "R",
+        "time": "1335-1425",
+        "percent": "80.0%"
+    },
+    {
+        "crn": "14768",
+        "location": "Studley COMPUTER SCIENCE 134",
+        "type": "Lab",
+        "name": "CSCI 3132 Obj. Orient/Generic Prog-Lab",
+        "weekdays": "R",
+        "time": "1335-1425",
+        "percent": "20.0%"
+    },
+    {
+        "crn": "14769",
+        "location": "Studley LSC-COMMON AREA C242",
+        "type": "Lec",
+        "name": "CSCI 3154 Intro Artificial Intel Gam App-Lec",
+        "weekdays": "TR",
+        "time": "1605-1725",
+        "percent": "73.3%"
+    },
+    {
+        "crn": "14770",
+        "location": "Studley KILLAM LIBRARY 2600",
+        "type": "Lec",
+        "name": "CSCI 3160 Designing User Interfaces-Lec",
+        "weekdays": "MT",
+        "time": "0835-1125",
+        "percent": "95.0%"
+    },
+    {
+        "crn": "14771",
+        "location": "Studley LSC-COMMON AREA C206",
+        "type": "Lab",
+        "name": "CSCI 3160 Designing User Interfaces-Lab",
+        "weekdays": "W",
+        "time": "1605-1725",
+        "percent": "95.0%"
+    },
+    {
+        "crn": "14772",
+        "location": "Studley LSC-COMMON AREA C238",
+        "type": "Lec",
+        "name": "CSCI 3161 Intro Comp Graph & Animation-Lec",
+        "weekdays": "WF",
+        "time": "1135-1255",
+        "percent": "70.0%"
+    },
+    {
+        "crn": "14773",
+        "location": "Studley MCCAIN ARTS&SS 1130",
+        "type": "Lec",
+        "name": "CSCI 3162 Digital Media-Lec",
+        "weekdays": "WF",
+        "time": "0835-0955",
+        "percent": "24.4%"
+    },
+    {
+        "crn": "14774",
+        "location": "Studley MONA CAMPBELL BUILDING 1108",
+        "type": "Lec",
+        "name": "CSCI 3172 Web-Centric Computing-Lec",
+        "weekdays": "MTF",
+        "time": "1605-1725",
+        "percent": "72.7%"
+    },
+    {
+        "crn": "14775",
+        "location": "Studley COMPUTER SCIENCE 143",
+        "type": "Lab",
+        "name": "CSCI 3172 Web-Centric Computing-Lab",
+        "weekdays": "F",
+        "time": "1035-1125",
+        "percent": "85.7%"
+    },
+    {
+        "crn": "14776",
+        "location": "Studley COMPUTER SCIENCE 133",
+        "type": "Lab",
+        "name": "CSCI 3172 Web-Centric Computing-Lab",
+        "weekdays": "F",
+        "time": "1035-1125",
+        "percent": "50.0%"
+    },
+    {
+        "crn": "14777",
+        "location": "Studley KILLAM LIBRARY 2600",
+        "type": "Lec",
+        "name": "CSCI 3190 Community Outreach-Lec",
+        "weekdays": "WF",
+        "time": "1305-1425",
+        "percent": "FULL"
+    },
+    {
+        "crn": "14778",
+        "location": "Studley KILLAM LIBRARY 2600",
+        "type": "Lec",
+        "name": "CSCI 3191 Community Outreach II-Lec",
+        "weekdays": "WF",
+        "time": "1305-1425",
+        "percent": "33.3%"
+    },
+    {
+        "crn": "18242",
+        "location": "Studley LSC-COMMON AREA C242",
+        "type": "Lec",
+        "name": "CSCI 4117 Advanced Data Structures-Lec",
+        "weekdays": "MTW",
+        "time": "1435-1555",
+        "percent": "50.0%"
+    },
+    {
+        "crn": "14779",
+        "location": "Studley LSC-COMMON AREA C244",
+        "type": "Lec",
+        "name": "CSCI 4155 Machine Learning-Lec",
+        "weekdays": "TR",
+        "time": "1305-1425",
+        "percent": "90.0%"
+    },
+    {
+        "crn": "18395",
+        "location": "Studley SIR JAMES DUNN 304",
+        "type": "Lab",
+        "name": "CSCI 4155 Machine Learning-Lab",
+        "weekdays": "W",
+        "time": "1635-1725",
+        "percent": "5.7%"
+    },
+    {
+        "crn": "14780",
+        "location": "Studley SIR JAMES DUNN 135",
+        "type": "Lec",
+        "name": "CSCI 4168 Game Design and Development-Lec",
+        "weekdays": "TR",
+        "time": "1435-1555",
+        "percent": "56.4%"
+    },
+    {
+        "crn": "14781",
+        "location": "Studley COMPUTER SCIENCE 133",
+        "type": "Lab",
+        "name": "CSCI 4168 Game Design and Development-Lab",
+        "weekdays": "MT",
+        "time": "1335-1425",
+        "percent": "95.0%"
+    },
+    {
+        "crn": "14782",
+        "location": "Studley COMPUTER SCIENCE 143",
+        "type": "Lab",
+        "name": "CSCI 4168 Game Design and Development-Lab",
+        "weekdays": "MT",
+        "time": "1335-1425",
+        "percent": "34.3%"
+    },
+    {
+        "crn": "14783",
+        "location": "Studley LSC-COMMON AREA C338",
+        "type": "Lec",
+        "name": "CSCI 4169 Usable Security & Privacy-Lec",
+        "weekdays": "TR",
+        "time": "0835-0955",
+        "percent": "60.0%"
+    },
+    {
+        "crn": "14784",
+        "location": "Studley COMPUTER SCIENCE 127",
+        "type": "Tut",
+        "name": "CSCI 4169 Usable Security & Privacy-Tut",
+        "weekdays": "MT",
+        "time": "1605-1725",
+        "percent": "60.0%"
+    },
+    {
+        "crn": "14785",
+        "location": "Studley COMPUTER SCIENCE 127",
+        "type": "Lec",
+        "name": "CSCI 4171 Networks and Communications-Lec",
+        "weekdays": "TR",
+        "time": "1005-1125",
+        "percent": "84.0%"
+    },
+    {
+        "crn": "14786",
+        "location": "Studley LSC-PSYCHOLOGY P5260",
+        "type": "Lec",
+        "name": "CSCI 4176 Mobile Computing-Lec",
+        "weekdays": "TR",
+        "time": "1605-1725",
+        "percent": "97.1%"
+    },
+    {
+        "crn": "14787",
+        "location": "Studley COMPUTER SCIENCE 143",
+        "type": "Lab",
+        "name": "CSCI 4176 Mobile Computing-Lab",
+        "weekdays": "W",
+        "time": "0835-1125",
+        "percent": "97.1%"
+    },
+    {
+        "crn": "14788",
+        "location": "Consult Department",
+        "type": "Lec",
+        "name": "CSCI 4191 Application Dev Project-Lec",
+        "weekdays": "",
+        "time": "N.A.\t",
+        "percent": "40.0%"
+    },
+    {
+        "crn": "14789",
+        "location": "Consult Department",
+        "type": "Lec",
+        "name": "CSCI 4192 Directed Studies-Lec",
+        "weekdays": "",
+        "time": "N.A.\t",
+        "percent": "60.0%"
+    },
+    {
+        "crn": "18403",
+        "location": "Consult Department",
+        "type": "Lec",
+        "name": "CSCI 4193 Technology Innovation-Lec",
+        "weekdays": "F",
+        "time": "1435-1725",
+        "percent": "33.3%"
+    },
+    {
+        "crn": "18385",
+        "location": "Studley COMPUTER SCIENCE 127",
+        "type": "Lec",
+        "name": "CSCI 5100 Communication Skills-Lec",
+        "weekdays": "MTWF",
+        "time": "0935-1025",
+        "percent": "54.4%"
+    },
+    {
+        "crn": "18386",
+        "location": "Studley COMPUTER SCIENCE 127",
+        "type": "Tut",
+        "name": "CSCI 5100 Communication Skills-Tut",
+        "weekdays": "F",
+        "time": "1035-1125",
+        "percent": "54.4%"
+    },
+    {
+        "crn": "18404",
+        "location": "Consult Department",
+        "type": "Lec",
+        "name": "CSCI 5193 Technology Innovation-Lec",
+        "weekdays": "F",
+        "time": "1435-1725",
+        "percent": "92.0%"
+    },
+    {
+        "crn": "16913",
+        "location": "Studley LSC-PSYCHOLOGY P5260",
+        "type": "Lec",
+        "name": "CSCI 5708 Mobile Computing-Lec",
+        "weekdays": "TR",
+        "time": "1605-1725",
+        "percent": "83.3%"
+    },
+    {
+        "crn": "16914",
+        "location": "Studley COMPUTER SCIENCE 134",
+        "type": "Lab",
+        "name": "CSCI 5708 Mobile Computing-Lab",
+        "weekdays": "F",
+        "time": "0835-1125",
+        "percent": "90.0%"
+    },
+    {
+        "crn": "18353",
+        "location": "Studley COMPUTER SCIENCE 142",
+        "type": "Lab",
+        "name": "CSCI 5708 Mobile Computing-Lab",
+        "weekdays": "F",
+        "time": "0835-1125",
+        "percent": "95.0%"
+    },
+    {
+        "crn": "18354",
+        "location": "Studley COMPUTER SCIENCE 228",
+        "type": "Lab",
+        "name": "CSCI 5708 Mobile Computing-Lab",
+        "weekdays": "F",
+        "time": "0835-1125",
+        "percent": "66.7%"
+    },
+    {
+        "crn": "18243",
+        "location": "Studley LSC-COMMON AREA C242",
+        "type": "Lec",
+        "name": "CSCI 6057 Advanced Data Structures-Lec",
+        "weekdays": "MTW",
+        "time": "1435-1555",
+        "percent": "20.0%"
+    },
+    {
+        "crn": "16915",
+        "location": "Studley LSC-COMMON AREA C338",
+        "type": "Lec",
+        "name": "CSCI 6307 Usable Privacy and Security-Lec",
+        "weekdays": "TR",
+        "time": "0835-0955",
+        "percent": "68.3%"
+    },
+    {
+        "crn": "16916",
+        "location": "Studley COMPUTER SCIENCE 127",
+        "type": "Tut",
+        "name": "CSCI 6307 Usable Privacy and Security-Tut",
+        "weekdays": "MT",
+        "time": "1605-1725",
+        "percent": "68.3%"
+    },
+    {
+        "crn": "16917",
+        "location": "Studley LSC-COMMON AREA C244",
+        "type": "Lec",
+        "name": "CSCI 6505 Machine Learning-Lec",
+        "weekdays": "TR",
+        "time": "1305-1425",
+        "percent": "95.0%"
+    },
+    {
+        "crn": "18396",
+        "location": "Studley SIR JAMES DUNN 135",
+        "type": "Lab",
+        "name": "CSCI 6505 Machine Learning-Lab",
+        "weekdays": "W",
+        "time": "1635-1725",
+        "percent": "85.0%"
+    },
+    {
+        "crn": "18435",
+        "location": "Studley LSC-COMMON AREA C234",
+        "type": "Lec",
+        "name": "CSCI 6514 Search and Optimization-Lec",
+        "weekdays": "WF",
+        "time": "1305-1425",
+        "percent": "37.5%"
+    },
+    {
+        "crn": "16918",
+        "location": "Studley KILLAM LIBRARY MACME",
+        "type": "Lec",
+        "name": "CSCI 6515 Machine learning for Big Data-Lec",
+        "weekdays": "R",
+        "time": "1435-1725",
+        "percent": "60.0%"
+    },
+    {
+        "crn": "16919",
+        "location": "Studley COMPUTER SCIENCE 127",
+        "type": "Lec",
+        "name": "CSCI 6704 Adv Topics Computer Networks-Lec",
+        "weekdays": "TR",
+        "time": "1005-1125",
+        "percent": "FULL"
+    },
+    {
+        "crn": "16920",
+        "location": "Studley MCCAIN ARTS&SS 2198",
+        "type": "Lec",
+        "name": "CSCI 6706 Network Design and Management-Lec",
+        "weekdays": "MTW",
+        "time": "1005-1125",
+        "percent": "88.9%"
+    },
+    {
+        "crn": "16921",
+        "location": "Consult Department",
+        "type": "Lec",
+        "name": "CSCI 6901 Directed Studies-Lec",
+        "weekdays": "",
+        "time": "N.A.\t",
+        "percent": "30.0%"
+    },
+    {
+        "crn": "16922",
+        "location": "Consult Department",
+        "type": "Lec",
+        "name": "CSCI 6902 Doctoral Directed Studies-Lec",
+        "weekdays": "",
+        "time": "N.A.\t",
+        "percent": "40.0%"
+    },
+    {
+        "crn": "18384",
+        "location": "Studley KENNETH C ROWE MANAG 1020",
+        "type": "Lec",
+        "name": "CSCI 6906 Spec Grad Topics in Comp Sci-Lec",
+        "weekdays": "MTR",
+        "time": "1735-1855",
+        "percent": "81.2%"
+    },
+    {
+        "crn": "16923",
+        "location": "Studley COMPUTER SCIENCE 127",
+        "type": "Lec",
+        "name": "CSCI 6999 Research Sem Computer Science-Lec",
+        "weekdays": "TR",
+        "time": "1135-1255",
+        "percent": "54.4%"
+    },
+    {
+        "crn": "16924",
+        "location": "Consult Department",
+        "type": "Lec",
+        "name": "CSCI 7001 Research Proj in Comp Science-Lec",
+        "weekdays": "",
+        "time": "N.A.\t",
+        "percent": "65.5%"
+    },
+    {
+        "crn": "16925",
+        "location": "Consult Department",
+        "type": "Lec",
+        "name": "CSCI 7900 Directed Research Project-Lec",
+        "weekdays": "",
+        "time": "N.A.\t",
+        "percent": "48.0%"
+    },
+    {
+        "crn": "14790",
+        "location": "Consult Department",
+        "type": "Lec",
+        "name": "CSCI 8873 Honours Seminar-Lec",
+        "weekdays": "",
+        "time": "N.A.\t",
+        "percent": "30.0%"
+    },
+    {
+        "crn": "14791",
+        "location": "Consult Department",
+        "type": "Lec",
+        "name": "CSCI 8890 Co-op Seminar-Lec",
+        "weekdays": "",
+        "time": "N.A.\t",
+        "percent": "80.8%"
+    },
+    {
+        "crn": "18303",
+        "location": "Consult Department",
+        "type": "Lec",
+        "name": "CSCI 8890 Co-op Seminar-Lec",
+        "weekdays": "",
+        "time": "N.A.\t",
+        "percent": "57.5%"
+    },
+    {
+        "crn": "14792",
+        "location": "Consult Department",
+        "type": "WkT",
+        "name": "CSCI 8891 Co-op Work Term I-WkT",
+        "weekdays": "",
+        "time": "N.A.\t",
+        "percent": "10.0%"
+    },
+    {
+        "crn": "14793",
+        "location": "Consult Department",
+        "type": "WkT",
+        "name": "CSCI 8892 Co-op Work Term II-WkT",
+        "weekdays": "",
+        "time": "N.A.\t",
+        "percent": "12.5%"
+    },
+    {
+        "crn": "14794",
+        "location": "Consult Department",
+        "type": "WkT",
+        "name": "CSCI 8893 Co-op Work Term III-WkT",
+        "weekdays": "",
+        "time": "N.A.\t",
+        "percent": "75.0%"
+    },
+    {
+        "crn": "16926",
+        "location": "Consult Department",
+        "type": "Ths",
+        "name": "CSCI 9000 Master's Thesis-Ths",
+        "weekdays": "",
+        "time": "N.A.\t",
+        "percent": "54.0%"
+    },
+    {
+        "crn": "18200",
+        "location": "Consult Department",
+        "type": "Lec",
+        "name": "CSCI 9100 Industrial Internship-Lec",
+        "weekdays": "",
+        "time": "N.A.\t",
+        "percent": "35.4%"
+    },
+    {
+        "crn": "18382",
+        "location": "Consult Department",
+        "type": "Lec",
+        "name": "CSCI 9100 Industrial Internship-Lec",
+        "weekdays": "",
+        "time": "N.A.\t",
+        "percent": "50.0%"
+    },
+    {
+        "crn": "18201",
+        "location": "Consult Department",
+        "type": "Lec",
+        "name": "CSCI 9200 Entrepreneurial Internship-Lec",
+        "weekdays": "",
+        "time": "N.A.\t",
+        "percent": "0.0%"
+    },
+    {
+        "crn": "16927",
+        "location": "Consult Department",
+        "type": "Ths",
+        "name": "CSCI 9530 Doctoral Thesis-Ths",
+        "weekdays": "",
+        "time": "N.A.\t",
+        "percent": "67.5%"
+    }
+]
