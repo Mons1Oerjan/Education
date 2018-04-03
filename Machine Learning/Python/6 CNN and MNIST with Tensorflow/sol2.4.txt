@@ -1,0 +1,17 @@
+I ran the training step 3000 iterations. Increasing this number would most likely
+result in more accurate results. However, due to hardware limitations I chose to run it 3000 times
+only and compare these results.
+
+Script  Accuracy
+conv1   0.9726%
+conv2   0.9808%
+conv3   0.9823%
+
+The results show that the more convolutional layers and pooling layers we add, the better
+accuracy results we get. The results here show that 2 layers yield better results than 1
+layer, and 3 layers yield better results than 2 layers.
+
+I also ran these scripts on 1000 training iterations, and the results showed the same
+conclusion that the more layers we use, the better the results are.
+
+Disclaimer: This theory has yet to be tested with more than 3 layers.
