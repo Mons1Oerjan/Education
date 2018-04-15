@@ -1,5 +1,3 @@
-package HashMapLinearProbing;
-
 public class main {
 
     private static HashMap map;

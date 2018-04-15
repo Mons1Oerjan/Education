@@ -1,5 +1,3 @@
-package HashMapLinearProbing;
-
 /**
  * Simple HashMap data structure using Linear Probing and
  * Open Addressing. Supports Integers only.

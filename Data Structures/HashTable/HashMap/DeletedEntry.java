@@ -1,5 +1,3 @@
-package HashMapLinearProbing;
-
 /**
  * Flags the HashEntry as deleted without setting
  * the entry to null.

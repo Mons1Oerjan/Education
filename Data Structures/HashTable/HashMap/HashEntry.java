@@ -1,5 +1,3 @@
-package HashMapLinearProbing;
-
 /**
  * A simple (Key, Value) pojo used as a single
  * entry in the HashTable.
