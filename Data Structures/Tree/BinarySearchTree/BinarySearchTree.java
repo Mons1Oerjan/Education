@@ -1,9 +1,14 @@
-package Tree;
-
 /**
- * Generic Binary Search Tree data structure
+ * Generic Binary Search Tree data structure.
+ *
+ * Rules:
+ *   - Each node can have up to 2 children.
+ *   - Every left child node must have a smaller value than the parent node.
+ *   - Every right child node must have a greater value than the parent node.
+ *   - All values in the BinarySearchTree must be unique.
+ *   - General tree rules also apply.
  */
-public class BinarySearchTree<T extends Comparable<T>> {
+public class BinarySearchTree<T> extends Comparable<T>> {
 	private BinaryTree<T> tree;
 	private int size;
 
@@ -249,7 +254,7 @@ public class BinarySearchTree<T extends Comparable<T>> {
 	// simple demo
 	public static void main(String... args) {
 		final BinarySearchTree<Integer> tree = new BinarySearchTree<>();
-		
+
 		tree.insert(5);
 		tree.insert(2);
 		tree.insert(3);

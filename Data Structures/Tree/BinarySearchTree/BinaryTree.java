@@ -1,7 +1,9 @@
-package Tree;
-
 /**
- * Generic Binary Tree data structure
+ * Generic Binary Tree data structure.
+ *
+ * Rules:
+ *   - Each node can have up to 2 children
+ *   - Other general Tree rules also apply.
  */
 public class BinaryTree<T> {
 	private T data;
@@ -59,7 +61,7 @@ public class BinaryTree<T> {
 	public void attachLeft(final BinaryTree<T> tree) {
 		if (tree == null) return;
 		else if (this.left != null || tree.getParent() != null) return;
-		
+
 		tree.setParent(this);
 		this.setLeft(tree);
 	}
@@ -67,7 +69,7 @@ public class BinaryTree<T> {
 	public void attachRight(final BinaryTree<T> tree) {
 		if (tree == null) return;
 		else if (this.right != null || tree.getParent() != null) return;
-		
+
 		tree.setParent(this);
 		this.setRight(tree);
 	}
@@ -123,7 +125,7 @@ public class BinaryTree<T> {
 
 	public static <T> void preorder(final BinaryTree<T> t) {
 		if (t == null) return;
-		
+
 		System.out.print(t.getData() + "\t");
 		preorder(t.getLeft());
 		preorder(t.getRight());
@@ -152,24 +154,24 @@ public class BinaryTree<T> {
 		final BinaryTree<String> B = new BinaryTree<String>();
 		final BinaryTree<String> C = new BinaryTree<String>();
 		final BinaryTree<String> D = new BinaryTree<String>();
-		
+
 		A.makeRoot("A");
 		B.makeRoot("B");
 		C.makeRoot("C");
 		D.makeRoot("D");
-		
+
 		A.attachLeft(B);
 		B.attachLeft(C);
 		A.attachRight(D);
-		
+
 		System.out.print("Preorder:\t");
 		preorder(A);
 		System.out.println();
-		
+
 		System.out.print("Inorder:\t");
 		inorder(A);
 		System.out.println();
-		
+
 		System.out.print("Postorder:\t");
 		postorder(A);
 		System.out.println();
