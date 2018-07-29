@@ -1,0 +1,195 @@
+-----  Stop and Wait Network Simulator Version 1.1 --------
+
+Enter the number of messages to simulate: 50
+Enter  packet loss probability [enter 0.0 for no loss]:0.2
+Enter packet corruption probability [0.0 for no corruption]:0.2
+Enter average time between messages from sender's layer5 [ > 0.0]:5
+Enter TRACE:2
+
+EVENT time: 3.482855,  type: 1, fromlayer5  entity: 0
+Ao -> B
+
+EVENT time: 8.891751,  type: 2, fromlayer3  entity: 1
+B: Valid and expected packet. ACK!
+    TOLAYER3: packet being corrupted
+
+EVENT time: 9.830931,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 13.649900,  type: 2, fromlayer3  entity: 0
+A: Received ACK, stop the timer.
+Ai -> B
+    TOLAYER3: packet being corrupted
+
+EVENT time: 17.860292,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 21.944448,  type: 2, fromlayer3  entity: 1
+B: Valid and expected packet. ACK!
+
+EVENT time: 25.973549,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 26.564356,  type: 2, fromlayer3  entity: 0
+A: Received ACK, stop the timer.
+Ai -> B
+    TOLAYER3: packet being lost
+
+EVENT time: 35.003128,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 43.854000,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 50.468849,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 56.212868,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 56.564354,  type: 0, timerinterrupt   entity: 0
+A: TIMER goes off. Resending the packet!
+    TOLAYER3: packet being lost
+
+EVENT time: 65.907639,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 71.831795,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 79.073143,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 84.454201,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 86.564354,  type: 0, timerinterrupt   entity: 0
+A: TIMER goes off. Resending the packet!
+    TOLAYER3: packet being corrupted
+
+EVENT time: 93.844131,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 94.713173,  type: 2, fromlayer3  entity: 1
+B: Valid and expected packet. ACK!
+    TOLAYER3: packet being corrupted
+
+EVENT time: 99.346123,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 104.690147,  type: 2, fromlayer3  entity: 0
+A: Received ACK, stop the timer.
+Ai -> B
+
+EVENT time: 105.657677,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 108.194344,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 108.795242,  type: 2, fromlayer3  entity: 1
+B: Valid and expected packet. ACK!
+
+EVENT time: 111.200508,  type: 2, fromlayer3  entity: 0
+A: Received ACK, stop the timer.
+Ai -> B
+    TOLAYER3: packet being corrupted
+
+EVENT time: 111.993782,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 115.993126,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 118.214630,  type: 2, fromlayer3  entity: 1
+B: Corrupted data. NACK!
+
+EVENT time: 123.000847,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 131.809723,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 132.533798,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 141.200500,  type: 0, timerinterrupt   entity: 0
+A: TIMER goes off. Resending the packet!
+    TOLAYER3: packet being corrupted
+
+EVENT time: 142.167816,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 147.493881,  type: 2, fromlayer3  entity: 1
+B: Corrupted data. NACK!
+
+EVENT time: 150.138489,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 153.141663,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 157.570786,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 157.926727,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 160.140732,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 160.989197,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 161.160461,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 169.704315,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 171.200500,  type: 0, timerinterrupt   entity: 0
+A: TIMER goes off. Resending the packet!
+
+EVENT time: 176.313690,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 177.435837,  type: 2, fromlayer3  entity: 1
+B: Valid and expected packet. ACK!
+    TOLAYER3: packet being lost
+
+EVENT time: 181.747818,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 189.451340,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 192.646637,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 196.017914,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 197.065079,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 201.200500,  type: 0, timerinterrupt   entity: 0
+A: TIMER goes off. Resending the packet!
+    TOLAYER3: packet being lost
+
+EVENT time: 206.720642,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 212.135956,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 217.324631,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 223.332428,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 226.466125,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 231.200500,  type: 0, timerinterrupt   entity: 0
+A: TIMER goes off. Resending the packet!
+    TOLAYER3: packet being corrupted
+
+EVENT time: 234.512375,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 238.369461,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 240.969757,  type: 2, fromlayer3  entity: 1
+B: Corrupted data. NACK!
+
+EVENT time: 244.522812,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 253.783676,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 261.200500,  type: 0, timerinterrupt   entity: 0
+A: TIMER goes off. Resending the packet!
+
+EVENT time: 261.222137,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 261.656555,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 263.025604,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 264.413788,  type: 2, fromlayer3  entity: 1
+B: Unexpected packet. Resend ACK!
+    TOLAYER3: packet being corrupted
+
+EVENT time: 272.694611,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 274.362396,  type: 2, fromlayer3  entity: 0
+A: Received ACK, stop the timer.
+Ai -> B
+
+EVENT time: 279.317413,  type: 2, fromlayer3  entity: 1
+B: Valid and expected packet. ACK!
+
+EVENT time: 281.831482,  type: 1, fromlayer5  entity: 0
+
+EVENT time: 282.686981,  type: 1, fromlayer5  entity: 0
+Simulator terminated at time 282.686981
+after sending 50 msgs from layer5
