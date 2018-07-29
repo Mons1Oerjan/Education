@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Cloud Computing - Assignment 1</title>
+        <meta name="description" content="Cloud Computing - Assignment 1">
+        <meta name="author" content="Orjan Monsen">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div id="main-container">
+            <form action="#" id="bmi-form" onsubmit="return false;">
+                <fieldset>
+                    <legend>BMI Calculator</legend>
+                    Weight (kg):
+                    <input required id="weight-field" type="number" name="weight (kg)"/>
+                    <br />
+                    Height (cm):
+                    <input required id="height-field" type="number" name="height (cm)"/>
+                    <br />
+                </fieldset>
+                <input type="submit" id="submit-bmi" value="Calculate BMI" onclick="calculateBMI();"/>
+                <br />
+                BMI Result:
+                <input id="bmi-result" type="number" readonly/>
+                <br />
+                BMI Meaning:
+                <input id="bmi-meaning" type="text" readonly/>
+            </form>
+        </div>
+        <script>
+            /**
+             * Calculate the BMI based on the formfield input.
+             */
+            function calculateBMI() {
+                var weight = document.getElementById('weight-field').value;
+                var height = document.getElementById('height-field').value;
+
+                if (weight && height) {
+                    height = height / 100;  // convert from cm to m
+                    var bmi = weight / (height * height);
+
+                    // display BMI value to the user:
+                    document.getElementById('bmi-result').value = bmi;
+
+                    // display BMI meaning to the user:
+                    if (bmi < 15)
+                        document.getElementById('bmi-meaning').value = "Very severely underweight.";
+                    else if (bmi > 15 && bmi < 16)
+                        document.getElementById('bmi-meaning').value = "Severely underweight.";
+                    else if (bmi > 16 && bmi < 18.5)
+                        document.getElementById('bmi-meaning').value = "Underweight.";
+                    else if (bmi > 18.5 && bmi < 25)
+                        document.getElementById('bmi-meaning').value = "Normal (healthy weight).";
+                    else if (bmi > 25 && bmi < 30)
+                        document.getElementById('bmi-meaning').value = "Overweight.";
+                    else if (bmi > 30)
+                        document.getElementById('bmi-meaning').value = "Obese.";
+                }
+            }
+        </script>
+        <noscript>
+            Sorry, your browser does not support Javascript.
+        </noscript>
+    </body>
+</html>

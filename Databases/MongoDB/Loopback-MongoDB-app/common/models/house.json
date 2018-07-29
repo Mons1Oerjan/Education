@@ -1,0 +1,49 @@
+{
+    "name": "House",
+    "properties": {
+        "BILL_ID": {
+            "type": "string"
+        },
+        "CQ": {
+            "type": "number"
+        },
+        "YEAR": {
+            "type": "number"
+        },
+        "MONTH": {
+            "type": "string"
+        },
+        "DAY": {
+            "type": "number"
+        },
+        "TITLE": {
+            "type": "string"
+        },
+        "REP_NAME": {
+            "type": "string"
+        },
+        "REP_PARTY": {
+            "type": "string"
+        },
+        "STATE": {
+            "type": "string"
+        },
+        "STATE_CODE": {
+            "type": "number"
+        },
+        "CONGR_DISTRICT": {
+            "type": "number"
+        },
+        "VOTE": {
+            "type": "string"
+        },
+        "QUESTION": {
+            "type": "string"
+        }
+    },
+    "options": {
+        "mongodb": {
+            "collection": "house"
+        }
+    }
+}

@@ -1,0 +1,15 @@
+.section .text
+.globl _start
+_start
+xor  %eax, %eax    // clear eax (set to 0)
+push %eax	   // push the zero (null) onto the stack (and decr ESP by 1)
+push $0x68732f2f   // push "//sh" onto the stack
+push $0x6e69622f   // push "/bin" onto the stack
+mov  %esp, %ebx    // ESP is pointing to the starting address of "/bin/sh". Write this into ebx
+push %eax          // eax is still zero at this point => pushing 0 on the stack terminates **argv (and decr ESP by 1)
+mov  %esp, %ecx    // ESP is now pointing to "/sh" => push "/sh" into ecx
+push %ebx          // push "/bin/sh" onto the stack
+mov  %eax, %edx    // move 0 into edx (it would be faster to do xor %edx, %edx)
+mov  $0xb, %al     // move _start into eax
+int  $0x80         // Trigger the interrupt and enter kernel mode
+
